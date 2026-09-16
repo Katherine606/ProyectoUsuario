@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "UsuarioAPI.Controllers.UsuarioController",
+    "Method": "ActualizarUsuario",
+    "RelativePath": "actualizar",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UsuarioAPI.Models.Dtos.UsuarioActualizarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsuarioAPI.Controllers.UsuarioController",
+    "Method": "CrearUsuario",
+    "RelativePath": "crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UsuarioAPI.Models.Dtos.UsuarioCrearDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsuarioAPI.Controllers.UsuarioController",
+    "Method": "EliminarUsuario",
+    "RelativePath": "eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsuarioAPI.Controllers.UsuarioController",
+    "Method": "ObtenerUsuarios",
+    "RelativePath": "Listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
